@@ -4,23 +4,56 @@ Markdown supports a wide range of language identifiers for fenced code blocks to
    - `bash`
    - `shell`
 
+```bash
+echo "Hello, World!"
+
 2. **Python:**
    - `python`
+
+```python
+def hello_world():
+    print("Hello, World!")
 
 3. **JavaScript:**
    - `javascript`
    - `js`
 
+```javascript
+function greet(name) {
+    console.log(`Hello, ${name}!`);
+}
+
 4. **Java:**
    - `java`
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
 
 5. **C and C++:**
    - `c`
    - `cpp`
    - `c++`
 
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+
 6. **PHP:**
    - `php`
+
+```php
+<?php
+echo "Hello, World!";
+?>
 
 7. **Ruby:**
    - `ruby`
@@ -38,11 +71,27 @@ Markdown supports a wide range of language identifiers for fenced code blocks to
     - `html`
     - `xml`
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, World!</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+
+
 12. **CSS:**
     - `css`
 
 13. **SQL (Structured Query Language):**
     - `sql`
+
+```sql
+SELECT name, age FROM users WHERE age > 30;
+
 
 14. **Markdown:**
     - `markdown`
@@ -50,8 +99,19 @@ Markdown supports a wide range of language identifiers for fenced code blocks to
 15. **JSON (JavaScript Object Notation):**
     - `json`
 
+```json
+{
+    "name": "John",
+    "age": 35,
+    "city": "New York"
+}
+
 16. **YAML (YAML Ain't Markup Language):**
     - `yaml`
+
+```yaml
+title: My Document
+author: John Doe
 
 17. **Dockerfile:**
     - `dockerfile`
