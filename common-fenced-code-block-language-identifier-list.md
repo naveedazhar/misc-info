@@ -109,7 +109,7 @@ SELECT name, age FROM users WHERE age > 30;
 16. **YAML (YAML Ain't Markup Language):**
     - `yaml`
 
-```yaml
+```css
 title: My Document
 author: John Doe
 
